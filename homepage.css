@@ -1,0 +1,219 @@
+body{
+  margin: auto;
+}
+/* phase1 */
+.phase1{
+  background-color: #011c38;
+  color: aliceblue;
+  display: flex;
+  #002349
+}
+
+a{
+  color: aliceblue;
+  text-decoration: none;
+}
+a:hover{
+  color: #124b88;
+}
+
+.t1{
+  list-style: none;
+  padding: 0px 10px
+}
+
+.push1{
+  margin-left: auto;
+  display: flex;
+}
+
+/* phase2 */
+.phase2{
+  background-color: #002349;
+}
+
+.main-nav{
+  display: flex;
+  margin: auto;
+  padding: 10px;
+  color: aliceblue;
+}
+
+
+.head{
+  font-size: large;
+}
+
+.nav{
+  display: flex;
+  margin-left: auto;
+  padding: 10px;
+}
+
+.top2{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.push{
+  margin-left: auto;
+}
+
+.sell{
+  border: 1px solid goldenrod;
+  padding: 5px;
+}
+
+.t2{
+  list-style: none;
+  padding:  10px;
+  margin: 0;
+  font-family: Arial,sans-serif;
+  font-style: bold;
+}
+
+.logo{
+  padding: 0px 10px;
+}
+
+
+/* cover */
+.cover{
+  height: 200px;
+  background-color: #124b88;
+  text-align: center;
+  color: aliceblue;
+  font-size: 5rem;
+  padding: 50px;
+  background-image: url(./background_eastate.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+/* Search box */
+.el-input__inner{
+  -webkit-font-smoothing: antialiased;
+  -webkit-appearance: none;
+  background-image: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: inline-block;
+  outline: none;
+  transition: border-color .2s cubic-bezier(.645,.045,.355,1);
+  align-self: flex-end;
+  border: none;
+  color: #000;
+  padding: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: transparent;
+  line-height: 1.27;
+  font-family: Mercury,Arial,Sans-Serif;
+  height: 70px;
+  font-size: 22px;
+  padding-bottom: 0;
+  box-shadow: 0px 0px 5px 0px black;
+}
+
+/* phase3 */
+.phase3{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 100%;
+
+  /*  repeat(auto-fill, minmax(300px, 1fr)) */
+}
+
+.zone1{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  border: none;
+  padding: 20px;
+}
+
+.offices{
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px){
+  .main-nav{
+    font-size: 0.7em;
+    padding: 20px;
+  }
+  .cover{
+    font-size: 3.5rem;
+    height: 170px;
+  }
+}
+@media only screen and (max-width: 600px){
+  .main-nav{
+    font-size: 0.5em;
+    padding: 10px;
+  }
+  .cover{
+    font-size: 3rem;
+    height: 150px;
+  }
+}
+@media only screen and (max-width: 300px){
+  .main-nav{
+    font-size: 0.2em;
+    padding: 10px;
+  }
+  .cover{
+    font-size: 5rem;
+    height: 150px;
+  }
+  .logo{
+    align-items: center;
+  }
+}
